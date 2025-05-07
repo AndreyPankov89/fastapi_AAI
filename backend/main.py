@@ -9,6 +9,7 @@ from goods import Goods,  UpdateGoods, save_goods, load_goods
 
 # Создаем экземпляр класса FastAPI
 app = FastAPI(
+    root_url="/api",
     title = "Учет покупок",
     description = "Демо приложение для учета покупок. Создано в рамках курса Академии нейросетей",
     version = "1.0.0"
