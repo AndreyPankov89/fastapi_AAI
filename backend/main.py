@@ -184,7 +184,7 @@ app.add_middleware(
     allow_origins=[
         # "http://localhost:5173",
         # "http://31.129.43.117",
-        "https://site-test-deploy1.ru",
+        "http://api.apwebmaster.ru",
     ],
     allow_credentials=True,
     allow_methods=["*"],
