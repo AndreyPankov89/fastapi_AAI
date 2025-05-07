@@ -12,7 +12,13 @@ app = FastAPI(
     
     docs_url=f"/api/docs",
     openapi_url="/api/openapi.json",
-    redoc_url=None,
+    redoc_url="/api/redoc",
+    openapi_tags=[
+        {
+            "name": "goods",
+            "description": "Работа с товарами",
+        },
+    ],
     root_url="/api",
     title = "Учет покупок",
     description = "Демо приложение для учета покупок. Создано в рамках курса Академии нейросетей",
