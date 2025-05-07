@@ -10,9 +10,6 @@ from goods import Goods,  UpdateGoods, save_goods, load_goods
 # Создаем экземпляр класса FastAPI
 app = FastAPI(
     
-    docs_url=f"/api/docs",
-    openapi_url="/api/openapi.json",
-    redoc_url="/api/redoc",
     openapi_tags=[
         {
             "name": "goods",
