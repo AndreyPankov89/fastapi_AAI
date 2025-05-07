@@ -185,7 +185,7 @@ async def delete_goods(id: int = Path(..., description="Номер товара"
     return {"message": "Goods deleted successfully"}
     
     
-
+'''
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -197,7 +197,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+'''
 
+# Запускаем сервер
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
