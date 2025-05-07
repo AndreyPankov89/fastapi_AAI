@@ -1,0 +1,22 @@
+.alert{
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    /*display: none;*/
+    
+}
+
+.alert.visibly{
+    display: block;
+}
+
+.modal-overlay{
+    background: #000;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
